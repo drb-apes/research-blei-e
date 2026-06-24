@@ -1,0 +1,136 @@
+A dual‑track NIL valuation, reporting, and exchange system integrating BiomechFlow™ physiological intelligence, NIL Intel (NIL Swaps), and the BLEI‑E Multi‑Asset Risk Engine.
+
+This repository is the NIL economics layer of the broader Biometric Finance Stack, connecting athlete physiology → NIL valuation → equity‑market risk.
+
+Overview
+
+This project implements the world’s first institutional‑grade NIL valuation and exchange system, designed for:
+
+    College athletics (Track A)
+
+    Professional NIL markets & derivative exposure (Track B)
+
+    Sponsor, agency, and franchise valuation workflows
+
+    Integration with BLEI‑E factor modeling
+
+    BiomechFlow™ biometric intelligence ingestion
+
+The system is built on real code — TypeScript, Node, PostgreSQL, React — and is designed for bank‑grade deployment, hedge‑fund‑grade analytics, and sports‑ops usability.
+
+Core Components
+1. BiomechFlow™ Intelligence Engine
+
+BiomechFlow is the physiological signal layer powering NIL valuation and BLEI‑E factorization.
+
+From your uploaded pitch deck:
+
+    “5 capsule zones translate physiology into financial intelligence.”
+
+BiomechFlow captures:
+
+    Glow Ring → Defensive Pressure Index (DP+)
+
+    Top Arc → Burst Meter
+
+    Bottom Arc → Tempo Clock
+
+    Left Bar → Leadership Impact Score
+
+    Right Bar → HRV/PD Testing
+
+BiomechFlow → NIL Intel = pricing the athlete  
+BiomechFlow → BLEI‑E = pricing the market’s reaction to the athlete
+
+2. NIL Intel — Dual‑Track NIL Valuation Engine
+
+This repository contains the full NIL Intel system described in your documents.
+
+From your uploaded deck:
+
+    “Historical biometric statistics drive NIL market pricing.”
+
+Track A — College NIL Valuation
+
+    Model NIL (intrinsic value)
+
+    Market NIL (demand‑driven value)
+
+    NIL Units (Boosts, Votes, Fan Tipping)
+
+    NIL Divergence
+
+    Sponsor Buyout
+
+    CPM/CPI settlement
+
+Track B — Professional NIL Exchange
+
+    NIL Valuation Swaps (fixed vs floating)
+
+    Cohort baskets
+
+    Exposure management
+
+    Pro‑tier reporting
+
+3. BLEI‑E — Multi‑Asset Risk Engine Integration
+
+BLEI‑E converts biometric and NIL signals into tradeable equity‑market risk factors.
+
+From the BLEI‑E whitepaper:
+
+    “BLEI‑E detects athlete-driven events — injuries, viral moments, behavioral shifts, biometric performance peaks — and predicts sponsor equity moves, media stock dislocations, and betting platform volatility before markets react.”
+
+BLEI‑E provides:
+
+    PMF‑E (Physiological Market Factor)
+
+    SEF‑E (Sponsor Equity Factor)
+
+    VVE‑E (Viral Virality Equity Factor)
+
+    FBR‑E (Fan Base Revenue Factor)
+
+    CSE‑E (Cortisol Stress Equity Factor)
+
+    CRS (Composite Risk Score 0–4)
+
+This repo feeds BLEI‑E with NIL valuation, divergence, and BiomechFlow‑derived signals.
+
+/src
+  /valuation        # Model NIL, Market NIL, Divergence, NIL Units
+  /swaps            # NIL Swaps, cohort baskets, exposure engine
+  /biomechflow      # BiomechFlow capsule ingestion + mapping
+  /api              # REST + WebSocket endpoints
+  /db               # PostgreSQL schema + migrations
+  /ui               # React dashboards (NIL cards, divergence charts)
+  /integration      # BLEI‑E factor hooks + CRS mapping
+/docs
+  whitepaper.pdf
+  api_specification.md
+  governance_protocol.md
+README.md
+
+Live Use Case — Portland Trail Blazers (2025–26)
+
+From your uploaded project description:
+
+    “Designed and delivered a full‑stack Player Development Intelligence system… built on the proprietary BiomechFlow capsule framework.”
+
+This repo’s NIL Intel + BiomechFlow modules were validated through:
+
+    24‑drill BiomechFlow PD library
+
+    Real‑time biometric ingestion
+
+    12‑week PD plans
+
+    Athlete‑controlled biometric privacy protocols
+
+Installation
+git clone https://github.com/drb-apes/institutional-grade-nil-valuation-reporting-and-exchange
+cd institutional-grade-nil-valuation-reporting-and-exchange
+npm install
+npm run dev
+
