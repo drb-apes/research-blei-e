@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <AssemblyName>BIMAPES.Matchday</AssemblyName>
+    <RootNamespace>BIMAPES.Matchday.App</RootNamespace>
+    <Version>1.0.0</Version>
+    <Authors>Dashawn Ramel Bledsoe</Authors>
+    <Description>BIM-APES Matchday Desktop App - Live Biometric Intelligence for Sports Organizations</Description>
+    <PackageProjectUrl>https://github.com/drb-apes/research-blei-e</PackageProjectUrl>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Text.Json" Version="7.0.0" />
+  </ItemGroup>
+
+</Project>
